@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 // local API package
-const { notes } = require('./db/db');
+const { notes } = require('./db/db.json');
 
 // Server Instructions
 const PORT = process.env.PORT || 3001;
